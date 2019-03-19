@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<!-- Ref:http://vpg.cs.princeton.edu/ -->
+
+
 <html class="no-js" lang="en">
 
 <head>
@@ -19,13 +23,12 @@
     <div id="main" style="padding-bottom:1em; padding-top: 5em; width: 60em; max-width: 70em; margin-left: auto; margin-right: auto;">
         <section id="four">
             <h1 style="text-align: center; margin-bottom: 0;">
-                Robot Grasping in Cluttered Environment with Active Exploration
+                Robot Grasping in Cluttered Environment
             </h1>
-            <!-- <h2 style="text-align: center;">with Self-supervised Deep Reinforcement Learning</h2> -->
+            <h2 style="text-align: center;"> with Active Exploration</h2>
 
-            <h3>
-                Abstract
-            </h3>
+            <h3 style="text-align: center;">Abstract</h3>
+
             <p>
                 In this paper, a novel robotic grasping system 
                 is established to automatically pick up objects in a cluttered
@@ -109,22 +112,22 @@
                     <source src="images/RobotGrasping/main.mp4" type="video/mp4">Your browser does not support this video.
                     </video>
                 </div>
-            
+            <hr>
             <!-- Insert a video from youtube -->
             <!-- <iframe id="match-video" width="880" height="495" style="margin-bottom: 2em; margin-left: auto; margin-right: auto; display:block;" src="https://www.youtube.com/embed/-OkyX7ZlhiU?rel=0" frameborder="0" allowfullscreen="">
             </iframe> width="880" height="495"  -->
 
             <h3 style="text-align: center;">Pipeline</h3>
 
-            <div class="12u$"><a href=""><span class="image fit"><img src="images/pipeline.jpg" alt=""></span></a></div>
+            <div class="12u$"><a href=""><span class="image fit"><img src="images/pipeline.png" alt=""></span></a></div>
 
             <p>
                 The pipeline of the proposed robotic grasping system is
                 illustrated in the aboved image. The RGB image and depth image
                 of the scene are obtained firstly. The affordance ConvNet
-                [12] is used to calculate the affordance map based on both images. 
-                A metric <li>Phi</li> is proposed to evaluate the credibility
-                of the current affordance map. If <li>Phi</li> satisfies the metric, the
+                is used to calculate the affordance map based on both images. 
+                A metric <i>Phi</i> is proposed to evaluate the credibility
+                of the current affordance map. If <i>Phi</i> satisfies the metric, the
                 composite robotic hand will implement the grasp operation.
                 Otherwise, the obtained RGB image and depth image are fed
                 into the DQN, which guides the composite robotic hand to
@@ -218,9 +221,9 @@
 
             <div class="row">
                 <div class="6u 12u$(xsmall)">
-                    <p>March 19, 2018<br>
+                    <p>March 19, 2019<br>
                         Posted by <a href="https://weiyx16.github.io/">Yixuan Wei</a><br>
-                        Copyright &copy; 2019 Yixuan Wei
+                        Copyright &copy; <a href="https://weiyx16.github.io/">Yixuan Wei</a>
                     </p>
                 </div>
                 <!-- Share the website -->

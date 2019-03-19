@@ -31,6 +31,9 @@
                 <a href="#education">Education</a>
             </li>
             <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
                 <a href="#research">Research</a>
             </li>
             <li>
@@ -59,7 +62,7 @@
         <div id="lead-content">
             <h1>YIXUAN WEI</h1>
             <h2>Eason Wei | A junior at Tsinghua University</h2>
-            <a href="https://weiyx16.github.io/RobotGrasping" class="btn-rounded-white">Furthur Results About IROS2019</a>
+            <a href="https://weiyx16.github.io/RobotGrasping" class="btn-rounded-white">RESULTS ABOUT IROS2019</a>
             <a href="files/cv_eason.pdf" class="btn-rounded-white">VIEW RESUME</a>
         </div>
         <!-- End #lead-content -->
@@ -95,7 +98,7 @@
                                 Machine Learning — Multimodal Learning / Reinforcement Learning
                             </li>
                             <li>
-                                Robotics — Robotic Vision / Active Perception
+                                Robotics — Robotic manipulation / Intelligent Agent
                             </li>
                         </ul>
                     </p>
@@ -116,7 +119,7 @@
                 <h4>Beijing, China</h4>
                 <p>
                     I major in Department of Automation, Tsinghua University, since september, 2016.<br />
-                    Up to now, the overall GPA is 3.6 (/4.0) and I rank 12 (/164).
+                    Up to now, the overall GPA is 3.6 (/4.0) and I rank 10 (/164).
                 </p>
             </div>
 
@@ -172,53 +175,131 @@
         </div>
         <!-- End .education-block -->
     </div>
-    <!-- End #education -->
-    <div id="distinction" class="background-alt">
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
         <div class="container">
-            <p> </p>
-            <p> </p>
-            <p> </p>
-            <p> </p>
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">Distinctions</h2>
+                <!-- IROS in processing -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/RobotGrasping/concept.png" width="210" height="210">
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Robot Grasping in Cluttered Environment with Active Exploration</h3>
+                        <p>
+                            Y. Deng∗, X. Guo∗, <b>Y. Wei</b>∗, K. Lu∗, B. Fang, D. Guo, F. Sun, H. Liu <br>
+                            * denotes equal contribution
+                        </p>
+                        <p style="color: #F4752E;">
+                            In submission
+                        </p>
+                        <p>
+                            We design a novel robotic grasping system to automatically pick up objects in a cluttered scene.
+                            Resorting to the active exploration, We utilize a deep Q-Network (DQN) to help obtain a better affordance map, 
+                            which can provide pixel-wise lifting candidate points for the suction cup.
+                        </p>
+                        <p>
+                            <a href="https://weiyx16.github.io/RobotGrasping">Webpage</a> &nbsp;·&nbsp;
+                            <!-- <a href="https://arxiv.org/pdf/1903.06473.pdf">Paper</a>&nbsp;·&nbsp;
+                            <a href="http://www.liuyebin.com/deephuman/assets/DeepHumanReduced.mp4">Video</a>&nbsp;·&nbsp;
+                            <a href="./bibtex/deephuman.bib">Bibtex</a> -->
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
                 </div>
-                <div class="col-md-8">
-                    <ul>
-                        <li>
-                            2017, Comprehensive Scholarship(0.5% of student body per year), Tsinghua University
-                        </li>
-                        <p> </p>
-                        <li>
-                            2017, Social Practice Excellence Award, Tsinghua University
-                        </li>
-                        <p> </p>
-                        <li>
-                            2017, Social Service Excellence Award, Tsinghua University
-                        </li>
-                        <p> </p>
-                        <li>
-                            2018, National Scholarship, Ministry of Education of China
-                        </li>
-                        <p> </p>
-                        <li>
-                            2018, The Second Prize in the 36th Challenge Cup Students Extracurricular Academic Science and Technology
-                            Contest, Tsinghua University
-                        </li>
-                        <p> </p>
-                        <li>
-                            2018, The First Prize of robotic innovation competition in the 20th National Robot and Artificial Intelligence Competition, Chinese Association
-                            for Artificial Intelligence
-                        </li>
-                    </ul>
+                <!-- Arxiv 2019
+                    Deep Human -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/DeepHuman/deephuman.png" width="210" height="210">
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>DeepHuman: 3D Human Reconstruction from a Single Image</h3>
+                        <p>
+                            Z. Zheng, T. Yu, <b>Y. Wei</b>, Q. Dai, Y. Liu
+                        </p>
+                        <p style="color: #F4752E;">
+                            arXiv 2019
+                        </p>
+                        <p>
+                            We propose DeepHuman, a deep learning based framework for 3D human reconstruction from a single RGB image.
+                            We also contribute THuman, a 3D real-world human model dataset containing approximately 7000 models.
+                        </p>
+                        <p>
+                            <a href="http://www.liuyebin.com/deephuman/deephuman.html">Webpage</a> &nbsp;·&nbsp;
+                            <a href="https://arxiv.org/pdf/1903.06473.pdf">Paper</a>&nbsp;·&nbsp;
+                            <a href="http://www.liuyebin.com/deephuman/assets/DeepHumanReduced.mp4">Video</a>&nbsp;·&nbsp;
+                            <a href="./bibtex/deephuman.bib">Bibtex</a>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <!-- Arxiv 2019
+                    Deep Human -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/DeepHuman/deephuman.png" width="210" height="210">
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>DeepHuman: 3D Human Reconstruction from a Single Image</h3>
+                        <p>
+                            Z. Zheng, T. Yu, <b>Y. Wei</b>, Q. Dai, Y. Liu
+                        </p>
+                        <p style="color: #F4752E;">
+                            arXiv 2019
+                        </p>
+                        <p>
+                            We propose DeepHuman, a deep learning based framework for 3D human reconstruction from a single RGB image.
+                            We also contribute THuman, a 3D real-world human model dataset containing approximately 7000 models.
+                        </p>
+                        <p>
+                            <a href="http://www.liuyebin.com/deephuman/deephuman.html">Webpage</a> &nbsp;·&nbsp;
+                            <a href="https://arxiv.org/pdf/1903.06473.pdf">Paper</a>&nbsp;·&nbsp;
+                            <a href="http://www.liuyebin.com/deephuman/assets/DeepHumanReduced.mp4">Video</a>&nbsp;·&nbsp;
+                            <a href="./bibtex/deephuman.bib">Bibtex</a>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
                 </div>
             </div>
-            <p> </p>
-            <p> </p>
-            <p> </p>
-            <p> </p>
         </div>
     </div>
+    <!-- End #projects -->
+
+
+
+    <div id="distinction" class="background-alt">
+            <h2 class="heading">Distinctions</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                      <h3>2018</h3>
+                    </div>
+                    <div class="col-md-8">
+                        <p><b>National Scholarship</b>, Ministry of Education of China</p>
+                        <p><b>The Second Prize</b> in the 36th Challenge Cup Students Extracurricular Academic Science and Technology
+                                Contest, Tsinghua University</p>
+                        <p><b>The First Prize</b> of robotic innovation competition in the 20th National Robot and Artificial Intelligence Competition, Chinese Association
+                                for Artificial Intelligence</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                      <h3>2017</h3>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Comprehensive Scholarship(<b>0.5%</b> of student body per year), Tsinghua University</p>
+                        <p>Social Practice Excellence Award, Tsinghua University</p>
+                        <p>Social Service Excellence Award, Tsinghua University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- End #distinction -->
 
     <div id="skills">
@@ -252,6 +333,9 @@
                 <div class="col-sm-5 copyright">
                     <p>
                         Copyright &copy; 2019 Yixuan Wei
+                    </p>
+                    <p>
+                        Designed by Ryan Fitzgerald <a href="https://github.com/RyanFitzgerald/devportfolio" style="color: #494040;">(Project Link)</a>
                     </p>
                 </div>
                 <div class="col-sm-2 top">
