@@ -659,10 +659,10 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
-    padding: 15px;
-
+    padding: 10px;
+    text-align: left;
     h3 {
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
@@ -688,6 +688,18 @@ footer {
     display: none;
 }
 
+/*
+ ----------- Distinctions --------
+*/
+#distinctions{
+    padding: 50px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
 /*
     -------------------------------
     ----- 9. Skills Styles -----
